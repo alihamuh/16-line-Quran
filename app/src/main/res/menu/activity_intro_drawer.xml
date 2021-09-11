@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Main Page">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_resume_intro" android:title="Resume" />
+                <item android:id="@+id/nav_surah_intro" android:title="Surah" />
+                <item android:id="@+id/nav_juz_intro" android:title="Juz" />
+                <item android:id="@+id/nav_page_intro" android:title="Page" />
+                <item android:id="@+id/nav_bookmark_intro" android:title="Bookmarks"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="ABOUT US">
+        <menu>
+            <item android:id="@+id/nav_mainRate" android:title="RATE US "  android:icon="@drawable/black_star"/>
+            <item android:id="@+id/nav_mainShare" android:title="SHARE" android:icon="@drawable/ic_share"/>
+            <item android:id="@+id/nav_mainDonate" android:title="DONATE"  android:icon="@drawable/ic_donate"/>
+            <item android:id="@+id/nav_mainAbout" android:title="ABOUT"  android:icon="@drawable/info_black"/>
+        </menu>
+    </item>
+</menu>
